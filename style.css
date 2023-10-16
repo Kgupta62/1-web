@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#front{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1617396900799-f4ec2b43c7ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: bottom;
+}
+#side{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width: 15%;
+    height: 45%;
+    background-color: transparent;
+
+    
+}
+#back{
+  width: 25%;
+  height: 100%;
+  background-color: transparent;
+  padding: 30px;
+}
+
+#jadoo{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+   background-image: url(https://images.unsplash.com/photo-1648239919721-27ec86337f67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMzfENEd3V3WEpBYkV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+
+
+}
+#bottom{
+    width: 100%;
+    height: 50%;
+    padding: 15px;
+    background-color: transparent;
+}
+h5{
+  padding: 5px;
+}
+h2{
+
+}
+a{
+color: blue;
+font-family: gilroy;
+padding: 5px;
+text-decoration: none;
+}
+p{
+color: black;
+padding-bottom: 40px;
+padding-top: 40px;
+}
+h1{
+    padding-top: 20px;
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px;
+}
